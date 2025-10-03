@@ -63,6 +63,7 @@ const programmingLanguages = [
 const technologies = [
   { name: "React", icon: "https://skillicons.dev/icons?i=react" },
   { name: "Svelte", icon: "https://skillicons.dev/icons?i=svelte" },
+  { name: "LaTeX", icon: "https://skillicons.dev/icons?i=latex" },
   { name: "WASM", icon: "https://skillicons.dev/icons?i=wasm" },
   { name: "Arduino", icon: "https://skillicons.dev/icons?i=arduino" },
   { name: "ROS", icon: "https://skillicons.dev/icons?i=ros" },
@@ -91,6 +92,7 @@ const technologies = [
   { name: "Blender", icon: "https://skillicons.dev/icons?i=blender" },
 
   { name: "Git", icon: "https://skillicons.dev/icons?i=git" },
+
 
   { name: "GitHub", icon: "https://skillicons.dev/icons?i=github" },
   { name: "Gitlab", icon: "https://skillicons.dev/icons?i=gitlab" },

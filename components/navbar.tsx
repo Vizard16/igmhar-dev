@@ -162,7 +162,7 @@ export default function Navbar() {
             <MessageCircle size={20} />
           </a>
            <a
-            href="/Igmhar_CV.pdf"
+            href="/Igmhar_CV1.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/70 hover:text-primary transition-colors"
@@ -276,7 +276,7 @@ export default function Navbar() {
                 <MessageCircle size={20} />
               </a>
                <a
-                 href="/Igmhar_CV.pdf"
+                 href="/Igmhar_CV1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/70 hover:text-primary transition-colors"
