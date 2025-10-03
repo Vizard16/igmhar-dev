@@ -54,7 +54,7 @@ export const experiences = [
       period: "Jan. 2022 - May 2024",
       location: "Zacatecas, Mexico",
       skills: ["Robotics", "C++", "Python", "ROS", "Project Management", "Mentoring", "Team Leadership"],
-      images: ["/images/experiences/First.png"],
+      images: ["/images/experiences/first.png"],
     },
   },
   {

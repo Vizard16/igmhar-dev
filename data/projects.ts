@@ -1,12 +1,11 @@
 import { url } from "inspector";
 
 export const projects = [
-
   {
     id: "autonomous-robot",
     title: "Mobile Autonomous Roomba with ML Pathing",
     category: "Robotics",
-    image: "/images/projects/roomba.jpeg",
+    image: "/images/projects/Roomba.jpeg",
     projectInfo: [
       "Designed and developed a mobile autonomous robot (Roomba-style) software capable of navigating complex environments with machine learning-based path planning.",
       "Integrated ROS2 with Arduino for motor control and real-time LIDAR mapping.",
@@ -21,7 +20,7 @@ export const projects = [
     date: "March-June 2024",
     details: {
       images: [
-        "/images/projects/roomba.jpeg",
+        "/images/projects/Roomba.jpeg",
         "/images/projects/mechatronics_architecture.jpeg",
         "/images/projects/open_roomba.jpeg",
         "/images/projects/ROS2.jpeg",
@@ -138,7 +137,7 @@ export const projects = [
       images: [
         "/images/projects/ciberfisicos2.jpg",
         "images/projects/dashgo+xarm.jpeg",
-        "images/projects/Teamdashgo.jpeg",
+        "images/projects/TeamDashgo.jpeg",
       ],
     },
     urls: [
@@ -168,7 +167,7 @@ export const projects = [
     id: "packaging-process",
     title: "Semi-Automated Packaging Process",
     category: "Industrial Automation",
-    image: "/images/projects/semiautomated.png",
+    image: "/images/projects/SemiAutomated.png",
     projectInfo: [
       "Developed a semi-automated control of a packaging process with the materials of the construction of a holonomic robot.",
       "Enabled operator-machine collaboration by integrating HMI and PLC systems.",
@@ -182,7 +181,7 @@ export const projects = [
     date: "2023",
     details: {
       images: [
-        "/images/projects/semiautomated.png",
+        "/images/projects/SemiAutomated.png",
         "/images/projects/Pickandplace.png",
         "/images/projects/Pickandplacereal.jpeg",
         "/images/projects/Picknplaceteam.jpeg",
@@ -193,7 +192,7 @@ export const projects = [
     id: "tractor-cab",
     title: "Precise Temperature Control of Tractor Cabs",
     category: "Industrial Automation",
-    image: "/images/projects/Cabinreal.png",
+    image: "/images/projects/CabinReal.png",
     projectInfo: [
       "Developed a temperature regulation system for tractor cabins with precise sensor-actuator feedback.",
       "Implemented PID controllers for HVAC system control.",
@@ -206,7 +205,7 @@ export const projects = [
     date: "2022",
     details: {
       images: [
-        "/images/projects/Cabinreal.png",
+        "/images/projects/CabinReal.png",
         "/images/projects/Circuits-heater.png",
         "/images/projects/Heatercabin.png",
       ],
@@ -244,7 +243,7 @@ export const projects = [
     details: {
       images: [
         "/images/projects/Electroplateado.png",
-        "/images/projects/electroplating.png",
+        "/images/projects/Electroplating.png",
       ],
     },
     urls: [
@@ -309,12 +308,16 @@ export const projects = [
     technologies: "Rust, WASM, Machine Learning, linfa, Svelte",
     industry: "AI",
     date: "2024",
-    details: { images: ["/images/projects/rustimage.png",
-       "/images/projects/joyrust.png", 
-       "/images/projects/angryrust.png", 
-       "/images/projects/sadrust.png",
-        "/images/projects/simple.png"] },
-     urls: [
+    details: {
+      images: [
+        "/images/projects/rustimage.png",
+        "/images/projects/joyrust.png",
+        "/images/projects/angryrust.png",
+        "/images/projects/Sadrust.png",
+        "/images/projects/Simple.png",
+      ],
+    },
+    urls: [
       {
         icon: "fab fa-github",
         name: "GitHub Repo",
@@ -327,7 +330,6 @@ export const projects = [
       },
     ],
   },
-  
 
   {
     id: "medical-appointments",
@@ -346,10 +348,14 @@ export const projects = [
     technologies: "React, NestJS, TypeScript, SQL Server, Docker",
     industry: "HealthTech",
     date: "2024 - Present",
-    details: { images: ["/images/projects/CSS5.png", 
-      "/images/projects/CSS1.png", 
-      "/images/projects/CSS2.png", 
-      "/images/projects/CSS4.png"] },
+    details: {
+      images: [
+        "/images/projects/CSS5.png",
+        "/images/projects/CSS1.png",
+        "/images/projects/CSS2.png",
+        "/images/projects/CSS4.png",
+      ],
+    },
   },
 
   {
@@ -367,8 +373,14 @@ export const projects = [
     technologies: "HTML, CSS, JavaScript, SQLite, Flask",
     industry: "Business Software",
     date: "2023",
-    details: { images: ["/images/projects/LogInMT.png", "/images/projects/IndexMT.png", "/images/projects/Capture release.png"] },
-     urls: [
+    details: {
+      images: [
+        "/images/projects/LogInMT.png",
+        "/images/projects/IndexMT.png",
+        "/images/projects/Capture-Release.png",
+      ],
+    },
+    urls: [
       {
         icon: "fab fa-github",
         name: "GitHub Repo",
@@ -396,8 +408,13 @@ export const projects = [
     technologies: "Arduino, C++, Sensors, Actuators, PID control",
     industry: "Robotics",
     date: "2023",
-    details: { images: ["/images/projects/Holonomic robot.png", "/images/projects/holonomicrobotreal.png"] },
-     urls: [
+    details: {
+      images: [
+        "/images/projects/Holonomic robot.png",
+        "/images/projects/holonomicrobotreal.png",
+      ],
+    },
+    urls: [
       {
         icon: "fa-solid fa-file",
         name: "File describing the project",
@@ -426,8 +443,14 @@ export const projects = [
     technologies: "APIs, Python, Node.js",
     industry: "Entertainment",
     date: "2024",
-    details: { images: ["/images/projects/discordbot.png", "/images/projects/Letterboxd-bot.png", "/images/projects/discordbot2.png",] },
-     urls: [
+    details: {
+      images: [
+        "/images/projects/discordbot.png",
+        "/images/projects/Letterboxd-bot.png",
+        "/images/projects/discordbot2.png",
+      ],
+    },
+    urls: [
       {
         icon: "fab fa-github",
         name: "GitHub Repo",
@@ -448,8 +471,9 @@ export const projects = [
     technologies: "YOLO, Python, OpenCV, Machine Learning",
     industry: "Computer Vision",
     date: "2023",
-    details: { images: ["/images/projects/YOLOv5.png", 
-      "/images/projects/yoloimage.png"] },
+    details: {
+      images: ["/images/projects/YOLOv5.png", "/images/projects/yoloimage.png"],
+    },
   },
   {
     id: "ros-arduino",
@@ -465,10 +489,13 @@ export const projects = [
     technologies: "ROS2, Arduino, C++, Python, PID Control, Raspberry Pi",
     industry: "Robotics",
     date: "2024",
-    details: { images: [
-       "/images/projects/rosbridge.jpg",
-      "/images/projects/Ros-arduino-bridge.png",
-       "/images/projects/Ros-arduino-bridge2.png"] },
+    details: {
+      images: [
+        "/images/projects/rosbridge.jpg",
+        "/images/projects/Ros-arduino-bridge.png",
+        "/images/projects/Ros-arduino-bridge2.png",
+      ],
+    },
     urls: [
       {
         icon: "fab fa-github",
@@ -481,33 +508,35 @@ export const projects = [
     id: "manufacturing-cell",
     title: "Manufacturing Cell Simulation",
     category: "Industrial Automation",
-    image: "/images/projects/weldingcell.jpeg",
+    image: "/images/projects/WeldingCell.jpeg",
     projectInfo: [
       "Created a simulation of a manufacturing welding cell with digital twin concepts.",
       "Simulated robotic arms, conveyors, and sensors for optimized layouts.",
     ],
     client: "Abb Robotics",
     role: "Simulation Engineer",
-    technologies: "Abb RobotStudio, Path Planning, Simulation, Robotics Kinematics",
+    technologies:
+      "Abb RobotStudio, Path Planning, Simulation, Robotics Kinematics",
     industry: "Industrial Automation",
     date: "2023",
-    details: { images: ["/images/projects/weldingcell.jpeg", 
-      "/images/projects/weldingcell2.png"] },
-       urls: [
+    details: {
+      images: [
+        "/images/projects/WeldingCell.jpeg",
+        "/images/projects/weldingcell2.png",
+      ],
+    },
+    urls: [
       {
         icon: "fa-solid fa-file",
         name: "File of the project",
-        link:  "https://drive.google.com/file/d/1_ksGXJuambdlXcJdZ2L1_gLGxiUHcxfV/view?usp=sharing",
+        link: "https://drive.google.com/file/d/1_ksGXJuambdlXcJdZ2L1_gLGxiUHcxfV/view?usp=sharing",
       },
       {
         icon: "fa-brands fa-youtube",
         name: "Video demonstration of the project",
         link: "https://www.youtube.com/watch?v=49_3t-YWi9g",
       },
-      
     ],
-    
-     
   },
   {
     id: "manchester-challenges",
@@ -517,19 +546,22 @@ export const projects = [
     projectInfo: [
       "Completed robotics challenges including SLAM, PID, and MPC control implementations.",
       "Simulated navigation and control tasks using ROS and Gazebo.",
-      "Completed courses on various robotics topics and implemented them in ROS as challenges, including SLAM using Kalman filters and sensor fusion"
+      "Completed courses on various robotics topics and implemented them in ROS as challenges, including SLAM using Kalman filters and sensor fusion",
     ],
     client: "Manchester Robotics",
     role: "Software Engineer",
     technologies: "ROS, Python, Control Theory, SLAM, Gazebo, Rviz",
     industry: "Robotics",
     date: "2024",
-    details: { images: ["/images/projects/manchester-1.png",
-      "/images/projects/manchester1.png",
-      "/images/projects/manchester2.png",
-      "/images/projects/manchester-2.png"
-    ] },
-     urls: [
+    details: {
+      images: [
+        "/images/projects/manchester-1.png",
+        "/images/projects/manchester1.png",
+        "/images/projects/manchester2.png",
+        "/images/projects/manchester-2.png",
+      ],
+    },
+    urls: [
       {
         icon: "fab fa-github",
         name: "GitHub Repo",
@@ -544,7 +576,7 @@ export const projects = [
         icon: "fab fa-youtube",
         name: "Videos of challenge",
         link: "https://www.youtube.com/watch?v=akDkFLPZqys",
-      }
+      },
     ],
   },
   {
@@ -553,24 +585,26 @@ export const projects = [
     category: "Personal Projects",
     image: "/images/projects/hismed1.jpeg",
     projectInfo: [
-        "Won contest for making an app to manage medical appointments and records.",
-        "Developed and maintained a React Native app for medical appointment registration.",
-        "Designed and implemented full-stack modules for nationwide electronic health records.",
-        "Supported Panama's Social Security Fund (CSS) initiative to digitize the medical history of the country."
-      ],
+      "Won contest for making an app to manage medical appointments and records.",
+      "Developed and maintained a React Native app for medical appointment registration.",
+      "Designed and implemented full-stack modules for nationwide electronic health records.",
+      "Supported Panama's Social Security Fund (CSS) initiative to digitize the medical history of the country.",
+    ],
     client: "Social Security Fund of Panama (CSS)",
     role: "App Developer",
     technologies: "React Native, NestJS, TypeScript, SQL Server, Expo, Docker",
     industry: "HealthTech",
     date: "2025",
-    details: { images: ["/images/projects/hismed1.jpeg",
-      "/images/projects/hismed2.jpeg",
-      "/images/projects/hismed3.jpeg",
-      "/images/projects/hismed4.jpeg"
-    ] },
-     urls: [
-
-          {
+    details: {
+      images: [
+        "/images/projects/hismed1.jpeg",
+        "/images/projects/hismed2.jpeg",
+        "/images/projects/hismed3.jpeg",
+        "/images/projects/hismed4.jpeg",
+      ],
+    },
+    urls: [
+      {
         icon: "fab fa-github",
         name: "GitHub Repo of User code",
         link: "https://github.com/Vizard16/Roomba",
@@ -602,11 +636,16 @@ export const projects = [
     ],
     client: "Environmental Tech Initiative",
     role: "AI Developer",
-    technologies: "YOLO, OpenCV, Python, Google Colab, TensorFlow, Pytorch, Computer Vision, Deep Learning, Data Augmentation",
+    technologies:
+      "YOLO, OpenCV, Python, Google Colab, TensorFlow, Pytorch, Computer Vision, Deep Learning, Data Augmentation",
     industry: "Environmental Technology",
     date: "2025",
     details: {
-      images: ["/images/projects/waste-classifier-1.png","/images/projects/waste-classifier-2.png", "/images/projects/waste-classifier-3.png"],
+      images: [
+        "/images/projects/waste-classifier-1.png",
+        "/images/projects/waste-classifier-2.png",
+        "/images/projects/waste-classifier-3.png",
+      ],
     },
     urls: [
       {
@@ -614,11 +653,10 @@ export const projects = [
         name: "GitHub Repository",
         link: "https://github.com/Vizard16/Garbage-Classifier-",
       },
-
     ],
   },
 
-   {
+  {
     id: "banorte-bot",
     title: "AI Chatbot for Banorte",
     category: "Personal Projects",
@@ -626,16 +664,20 @@ export const projects = [
     projectInfo: [
       "Designed an intelligent chatbot for banking services with NLP capabilities.",
       "Automated common queries to improve customer service efficiency.",
-      "Integrated financial data access and security workflows."
+      "Integrated financial data access and security workflows.",
     ],
     client: "Banorte",
     role: "Software Developer",
     technologies: "AI, Python, NLP, OpenAI APIs",
     industry: "FinTech",
     date: "2023",
-    details: { images: ["/images/projects/banorte1.png",
-       "/images/projects/banorte-2.jpeg"] },
-     urls: [
+    details: {
+      images: [
+        "/images/projects/banorte1.png",
+        "/images/projects/banorte-2.jpeg",
+      ],
+    },
+    urls: [
       {
         icon: "fa-solid fa-briefcase",
         name: "Presentation of the project",
@@ -647,6 +689,5 @@ export const projects = [
         link: "https://docs.google.com/document/d/1kuZNBZn3RK8jU_YNuWhPBqh34vadPYLo-JOuqVYzrKk/mobilebasic",
       },
     ],
-
   },
 ];
