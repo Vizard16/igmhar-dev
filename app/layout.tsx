@@ -21,7 +21,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "igmhar Sánchez | Robotics & AI Engineer",
+  title: "Igmhar Sánchez | Mechatronics, Robotics & AI Engineer",
   description:
     "Personal portfolio of Igmhar Sánchez, a Robotics, Mechatronics and Software Developer specialized in Cyber-physical systems and AI passionate.",
     generator: 'v0.dev'
